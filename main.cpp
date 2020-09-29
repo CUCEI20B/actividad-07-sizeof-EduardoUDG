@@ -1,6 +1,4 @@
 #include <iostream>
-#include <conio.h>
-#include <string.h>
 
 using namespace std;
 
@@ -11,25 +9,15 @@ int main() {
     getline(cin, cadena);
     if(cadena == "char"){
         cout << sizeof(char) << endl;
-    }
-    getline(cin, cadena);
-    if(cadena == "int"){
+    } else if(cadena == "int"){
         cout << sizeof(int) << endl;
-    }
-    getline(cin, cadena);
-    if(cadena == "short"){
+    } else if(cadena == "short"){
         cout << sizeof(short) << endl;
-    }
-    getline(cin, cadena);
-    if(cadena == "float"){
+    } else if(cadena == "float"){
         cout << sizeof(float) << endl;
-    }
-    getline(cin, cadena);
-    if(cadena == "double"){
+    } else if(cadena == "double"){
         cout << sizeof(double) << endl;
-    }
-    getline(cin, cadena);
-    if(cadena == "long"){
+    } else if(cadena == "long"){
         cout << sizeof(long) << endl;
     }
 
