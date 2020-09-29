@@ -5,48 +5,33 @@
 using namespace std;
 
 int main() {
-    char caracter;
-    int entero;
-    short corto;
-    float racional;
-    double doble;
-    long largo;
+    string cadena;
+
 
     getline(cin, cadena);
     if(cadena == "char"){
         cout << sizeof(char) << endl;
     }
-    fflush(stdin);
-
     getline(cin, cadena);
     if(cadena == "int"){
         cout << sizeof(int) << endl;
     }
-    fflush(stdin);
-
     getline(cin, cadena);
-    if(cadena == "corto"){
+    if(cadena == "short"){
         cout << sizeof(short) << endl;
     }
-    fflush(stdin);
-
     getline(cin, cadena);
-    if(cadena == "racional"){
+    if(cadena == "float"){
         cout << sizeof(float) << endl;
     }
-    fflush(stdin);
-
     getline(cin, cadena);
-    if(cadena == "doble"){
+    if(cadena == "double"){
         cout << sizeof(double) << endl;
     }
-    fflush(stdin);
-
     getline(cin, cadena);
-    if(cadena == "largo"){
+    if(cadena == "long"){
         cout << sizeof(long) << endl;
     }
-
 
     return 0;
 }
